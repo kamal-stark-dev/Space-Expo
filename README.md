@@ -2,6 +2,8 @@
 
 Welcome to SpaceExpo, your ultimate destination for all things space-related! Whether you're a space enthusiast, a student, or just someone curious about the cosmos, SpaceExpo has something for everyone. This project aims to provide a comprehensive platform for space technology information, rare space images, and AI-generated space-related imagery, all wrapped up in a clean and attractive user interface.
 
+[Main Title Image](./assets/Readme%20Pictures/upper-title.png)
+
 ## Key Features
 
 ### 1. Space Technology Information
@@ -22,6 +24,8 @@ Experience the future of space imagery with our AI-generated images. Using state
 - **Interactive Experiences**: Engage with interactive simulations and experiences to deepen your understanding of space concepts.
 - **Community Forums**: Connect with fellow space enthusiasts, share your thoughts, and participate in discussions about the mysteries of the universe.
 - **Educational Resources**: Access a variety of educational resources, including articles, videos, and tutorials, to expand your knowledge of space and astronomy.
+
+[Photo Gallery Page](./assets/Readme%20Pictures/photo-gallery.png)
 
 ## Get Started
 

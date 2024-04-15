@@ -27,8 +27,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 50px;   
-    padding-top: 12px; 
+    padding: 0 50px;
+    padding-top: 12px;
 }
 
 nav .logo {
@@ -48,11 +48,11 @@ main {
     padding-top: 12px;
 }
 
-#planeto {
+#space {
     font-size: 26px;
 }
 
-#blogz {
+#expo {
     font-size: 38px;
 }
 
@@ -214,7 +214,7 @@ main {
     font-family: "Poppins", sans-serif;
     /* justify-content: center; */
 }
-  
+
 .wrapper .icon {
   position: relative;
   background: #fff;
@@ -231,7 +231,7 @@ main {
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-  
+
 .wrapper .tooltip {
   position: absolute;
   top: 0;
@@ -245,7 +245,7 @@ main {
   pointer-events: none;
   transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-  
+
 .wrapper .tooltip::before {
   position: absolute;
   content: "";
@@ -257,40 +257,40 @@ main {
   transform: translate(-50%) rotate(45deg);
   transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-  
+
 .wrapper .icon:hover .tooltip {
   top: -45px;
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
 }
-  
+
 .wrapper .icon:hover span,
 .wrapper .icon:hover .tooltip {
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
 }
-  
+
 .wrapper .facebook:hover,
 .wrapper .facebook:hover .tooltip,
 .wrapper .facebook:hover .tooltip::before {
   background: #1877F2;
   color: #fff;
 }
-  
+
 .wrapper .twitter:hover,
 .wrapper .twitter:hover .tooltip,
 .wrapper .twitter:hover .tooltip::before {
   background: #1DA1F2;
   color: #fff;
 }
- 
+
 .wrapper .instagram:hover,
 .wrapper .instagram:hover .tooltip,
 .wrapper .instagram:hover .tooltip::before {
   background: #E4405F;
   color: #fff;
 }
-  
+
 /* social media code end */
 
 .copyright-text {
@@ -319,7 +319,7 @@ main {
 }
 
 footer {
-  background-color: #122031; 
+  background-color: #122031;
 }
 
 .blog-footer{

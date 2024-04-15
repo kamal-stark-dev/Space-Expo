@@ -49,11 +49,13 @@ main {
 }
 
 #space {
-    font-size: 26px;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 #expo {
-    font-size: 38px;
+    font-size: 34px;
+    font-weight: bold;
 }
 
 .navbar ul li a {

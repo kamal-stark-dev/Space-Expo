@@ -293,6 +293,10 @@ main {
   color: #fff;
 }
 
+.blog-footer .left-section a {
+  color: black;
+}
+
 /* social media code end */
 
 .copyright-text {
@@ -371,6 +375,16 @@ footer {
   gap: 12px;
 }
 
+.blog-footer .right-section {
+  display: flex;
+  margin-top: 32px;
+  align-items: center;
+}
+
+.blog-footer a:hover {
+  color: white;
+}
+
 .featured-products {
   display: flex;
   align-items: center;
@@ -399,4 +413,40 @@ footer {
 
 .products .text {
   margin: 7px;
+}
+
+/* Feedback Form */
+.newsletter-form {
+  background-color: #fff;
+  padding: 14px 30px;
+  border-radius: 8px;
+  margin: 12px 164px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.newsletter-form h2 {
+  margin-bottom: 20px;
+}
+
+.newsletter-form input[type="email"] {
+  width: 40%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.newsletter-form input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter-form input[type="submit"]:hover {
+  background-color: #0056b3;
 }

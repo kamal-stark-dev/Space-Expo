@@ -1,0 +1,138 @@
+.main-title {
+    text-align: center;
+}
+
+.typing {
+    font-size: 20px;
+    border-right: 3px solid black;
+    margin-left: 560px;
+    width: 33ch;
+    overflow: hidden;
+    animation: typing-anim 2s steps(33);
+    white-space: nowrap;
+}
+
+@keyframes typing-anim {
+    from{
+        width: 0;
+    }
+}
+
+.main-title span {
+    color: rgb(100, 100, 200);
+}
+
+.image-holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 22px;
+    margin: 32px;
+}
+
+.ai-section .image-holder{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.ai-section .image-holder .image img{
+    background-color: rgb(200, 200, 200);
+}
+
+.image {
+    min-width: 20%;
+}
+
+.image-holder .image {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 22px;
+}
+
+.image-holder .image img {
+    width: 100%;
+    /* aspect-ratio: 16 / 9; */
+    object-fit: cover;
+}
+
+.image-holder .download-button {
+    position: absolute;
+    bottom: 14px;
+    right: 8px;
+    z-index: 5;
+    background-color: rgba(255, 255, 255, 0.8);
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+}
+
+.image:hover img {
+    opacity: 0.95;
+}
+
+.image:hover .download-button{
+    opacity: 1;
+}
+
+.image-holder .download-button img {
+    display: inline-block;
+    color: black;
+    width: 32px;
+    margin: 0;
+    padding: 6px;
+}
+
+.image-holder .download-button:hover {
+    background: rgb(160, 160, 160);
+}
+
+.image-holder .ad-block-image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-color: rgb(15, 41, 53);
+    margin-bottom: 22px;
+}
+
+/* Advertisement text */
+.image-holder .ad-block-image span {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    font-size: 24px;
+}
+
+.ai-section .image-holder .ad-block-image {
+    aspect-ratio: 1 / 1;
+    border: 3px solid #ccc;
+}
+
+.sub-title h2{
+    font-size: 32px;
+    text-decoration: none;
+    background-color: rgb(100, 100, 200);
+    color: white;
+    border-radius: 0.25rem;
+    padding: 10px 14px;
+    margin: 22px 200px -11px 200px;
+}
+
+.image-information {
+    background: #304D6D;
+    padding: 12px;
+}
+
+.image-information .title {
+    margin: 0 200px 24px 200px;
+}
+
+.image-information .text {
+    margin: 12px 40px;
+    text-align: center;
+}
+
+.image-information .text a {
+    font-weight: 600;
+}
+
+.image-information span {
+    color: white;
+    font-size: 20px;
+}

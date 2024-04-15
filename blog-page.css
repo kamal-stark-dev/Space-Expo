@@ -1,0 +1,15 @@
+.blog-container {
+    transition: all 300ms ease-in-out;
+}
+
+.blog-container:hover img {
+    transform: scale(1.01);
+}
+
+.blog-container:hover .blog-title {
+    font-size: 22.3px;
+}
+
+.blog-container:hover .blog-description {
+    font-size: 16.2px;
+}
